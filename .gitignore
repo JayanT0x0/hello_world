@@ -1,15 +1,73 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/ #ignoring all the  folder
+build/
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+.gradle/8.7/checksums/checksums.lock
+.gradle/8.7/checksums/md5-checksums.bin
+.gradle/8.7/checksums/sha1-checksums.bin
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidPluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxCoreLibraryAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxEspressoLibraryAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxLibraryAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$JetbrainsKotlinPluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$JetbrainsPluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibs.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidPluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$JetbrainsKotlinPluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$JetbrainsPluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/metadata.bin
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/sources/org/gradle/accessors/dm/LibrariesForLibs.java
+.gradle/8.7/dependencies-accessors/e5d0c485ed9081f602aa0c935b664eb63f940590/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java
+.gradle/8.7/dependencies-accessors/gc.properties
+.gradle/8.7/executionHistory/executionHistory.bin
+.gradle/8.7/executionHistory/executionHistory.lock
+.gradle/8.7/fileChanges/last-build.bin
+.gradle/8.7/fileHashes/fileHashes.bin
+.gradle/8.7/fileHashes/fileHashes.lock
+.gradle/8.7/fileHashes/resourceHashesCache.bin
+.gradle/8.7/gc.properties
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/buildOutputCleanup/cache.properties
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/config.properties
+.gradle/file-system.probe
+.gradle/vcs-1/gc.properties
